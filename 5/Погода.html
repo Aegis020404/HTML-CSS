@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Погода</title>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="5">
+        <style>
+.q{
+    
+    width:150px;
+    height:254px;
+    background-color:#2962AA;
+    border:1px solid #2962AA;
+    text-align: center;
+    color:white;
+    position: absolute;
+}
+.q.ab{
+left: 8px;
+top: 8px;
+}
+.q.bc{
+left: 168px;
+top: 8px;
+}
+.q.cd{
+left: 328px;
+top: 8px;
+}
+img{
+    position:relative;
+    top:30px;
+}
+.down{
+    position:relative;
+    top:50px;
+}
+.up{
+    position:relative;
+    top:20px;
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+        <div class="q ab"><div class="up">Вт</div><br>
+<img src="https://webref.ru/assets/files/weather-clear.png" alt="sunny" width="128" height="128">
+    <div class="down">Солнечно</div>
+        </div>
+        <div class="q bc"><div class="up">Ср</div>  <br>
+            <img src="https://webref.ru/assets/files/weather-overcast.png" alt="облачно" width="128" height="128">
+            <div class="down">облачно</div>
+        </div>
+        <div class="q cd"><div class="up">Чт</div><br>
+            <img src="https://webref.ru/assets/files/weather-showers.png" alt="дождливо" width="128" height="128">
+            <div class="down">дождливо</div>
+        </div>
+        </header>
+    </body>
+    </html>

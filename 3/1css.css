@@ -1,0 +1,14 @@
+.q{
+    background-color:red;
+    color:white;
+}
+#q{
+    background-color: grey;
+    color: white;
+}
+body{
+    background-color:lime;
+    color: white;
+}
+a { color: blue; }
+a:hover { color: red; }

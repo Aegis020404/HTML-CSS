@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>Блок с заголовком</title>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="1">
+    <link rel="icon" href="../4/blackwhite.ico">
+    <style>
+     header{
+         color:#fff;
+         background-color: #795547;
+     }
+     h2{
+        font-family:Arial, Helvetica, sans-serif;
+        text-align:center;
+        color:gold;
+        vertical-align: middle;
+        display: inline-block;
+     }
+     h2:before,
+     h2:after{
+         content:"";
+         width:50%;
+         height:1px;
+        background-color: gold;
+        display: inline-block;
+        vertical-align: middle;
+        position:relative;
+     }
+     h2:before {
+    /* Смещаем левую линию на 100% влево, чтобы линия 
+    ** встала рядом с текстом слева */
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -14px;
+}
+h2:after {
+    /* Смещаем правую линию на 100% вправо, чтобы 
+    ** линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -14px;
+}
+   
+  
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Апперация</h2>
+        <p>Гештальт, как бы это ни казалось парадоксальным, понимает культурный комплекс, к тому же этот вопрос касается чего-то слишком общего.</p>
+    </header>
+</body>
+</html>

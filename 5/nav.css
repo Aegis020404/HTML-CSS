@@ -1,0 +1,20 @@
+ul{
+    background-color: #B51B84;
+    height: 38px;
+    padding:10px;
+    box-sizing:border-box;
+}
+li{
+    margin:10px;
+   
+    vertical-align:middle;
+    display:inline;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+
+}
+a:hover{
+text-decoration:underline;
+}

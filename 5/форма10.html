@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Форма</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta http-equiv="refresh" content="50">
+        <link rel="icon" href="../4/blackwhite.ico" type="image/x-icon">
+        <style>
+            body{
+                background-color:#19336E;
+            }
+            header{
+                background-color:#2C4179;
+                width: 642px;
+                height: 327px;
+                box-sizing:border-box;
+                margin:auto;
+                margin-top:20px;
+                color:#84A2F7;
+                padding:30px;
+                box-shadow: 1px 1px 5px black;
+                outline: 0.1px solid #42557B;
+                position:relative;
+            }
+            .input{
+                background-color:#192B4F;
+                width:310px;
+                position:absolute;
+                right:135px;
+                box-shadow:1px 1px 5px #425573;
+                border:none;
+               display: inline-block;
+               color:white;
+
+            }
+            .dim{
+                text-align:right;
+                display: inline-block;
+                position:relative;
+                left:80px;
+                padding-right: 450px;
+                direction: rtl;
+            }
+            .input.a{
+           overflow-y: scroll;
+            height:110px;
+            border:1px solid #192B4F;
+            }
+            .submit{
+                background-color: #0D1321;
+                color:#6B7DB5;
+                width:130px;
+                height:50px;
+                border:none;
+                box-sizing: border-box;
+                font-size: 16px;
+                position:absolute;
+                left:190px;
+                bottom:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <form>
+                <p><div class="dim">Имя</div> <input name="name" class="input"></p>
+                <p><div class="dim">Фамилия </div><input name="name" class="input"></p>
+                <p><div class="dim">Email </div><input name="name" class="input"></p>
+                <p><div class="dim ">Сообщение</div> <textarea class="input a" ></textarea></p>
+                <p><input type="submit" name="button" class="submit" value="ОТПРАВИТЬ"></p>
+            </form>
+        </header>
+    </body>
+</html>

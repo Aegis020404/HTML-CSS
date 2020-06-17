@@ -1,0 +1,9 @@
+@keyframes skewing {
+    0%   { transform: skew(0deg); }
+    20%  { transform: skew(10deg); }
+    40%  { transform: skew(45deg); }
+    60%  { transform: skew(90deg); }
+    80%  { transform: skew(120deg); }
+    100% { transform: skew(0deg); }
+  }
+  p { animation: skewing 10s steps(1) 0s infinite; }

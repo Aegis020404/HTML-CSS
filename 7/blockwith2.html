@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Блок с заголовком</title>
+  <style>
+      .block{
+          color: white;
+          background-color: #795547;
+          text-align: center;
+          margin-top:0;
+      }
+      h2{
+        
+          color: yellow;
+          display:inline-block;
+          overflow: hidden;
+          font-weight: 500;
+          margin-top: 0;
+
+      }
+      h2:before,
+      h2:after{
+          content:"";
+          background-color: yellow;
+          display:inline-block;
+          width:50%;
+          height:1px;
+          vertical-align: middle;
+          position:relative;
+          }
+ 
+
+</style>
+ </head>
+ <body>
+  <section class="block">
+   <h2>Апперцепция</h2>
+   <p>Гештальт, как бы это ни казалось парадоксальным, 
+   понимает культурный комплекс, к тому же этот вопрос 
+   касается чего-то слишком общего.</p>
+  </section>
+ </body>
+</html>

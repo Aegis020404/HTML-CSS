@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <title>Карты</title>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="50">
+        <style>
+            body{
+                margin:0 0 0 0;
+            }
+            main{
+               
+                position:relative;
+                left:50%;
+                top:50px;
+
+            }
+            img{
+               position: absolute;
+               z-index:2;
+              
+            }
+            .heart{
+                
+                left:-23px;
+                transform:rotatez(-15deg);
+                top: 15px;
+            }
+            .rhomb{
+                transform:rotatez(0deg);
+               
+                
+            }
+            .pice{
+                transform:rotatez(15deg);
+                left:25px;
+              
+            }
+            img:hover{
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div ><img src="https://webref.ru/assets/files/3.png"alt"3sheart" class="heart"></div>
+            <div ><img src="https://webref.ru/assets/files/7.png"alt"7srhomb" class="rhomb"></div>
+            <div><img src="https://webref.ru/assets/files/ace.png"alt"3spice"  class="pice"></div>
+        
+        </main>
+    </body>
+</html>

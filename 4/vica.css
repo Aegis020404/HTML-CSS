@@ -1,0 +1,28 @@
+.Arial{font-family:Arial;}
+.Arialblack{font-family:Arial, Black;}
+.Comic {font-family:'Courier New', Courier, monospace;}
+.Courier {font-family:'Courier New', Courier, monospace;}
+.Georgia{font-family:Georgia;}
+.Impact{font-family:Impact  ;}
+.Times {font-family:'Times New Roman', Times, serif;}
+.Trebuchet {font-family:Trebuchet ;}
+.Verdana{font-family:Verdana;}
+.qwe{
+    background-color:lavender;
+}
+header{
+    text-align: center;
+    background-color:cornflowerblue;
+}
+.ass{
+    line-height: 2;
+}
+p { text-indent: 1em; }
+body { background-image: linear-gradient(gray); }
+p { display: list-item ; }
+#ew {
+    width:600px;
+    height:600px;
+    display:block;
+    background-image: linear-gradient(rgb(207, 207, 207),gray);
+}

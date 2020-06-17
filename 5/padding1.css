@@ -1,0 +1,26 @@
+body{
+    font-family: Oswald, sans-serif;
+}
+span{
+    background-color: rgba(222, 184, 135, 0.658);
+    padding:5px;
+    margin:10px;
+}
+.light{
+    font-weight: lighter;
+}
+.regular{
+    font-weight: normal;
+}
+.medium{font-weight:medium;}
+.semi-bold{font-weight:absolute;}
+.bold{font-weight:bold;}
+
+
+
+
+
+
+
+
+

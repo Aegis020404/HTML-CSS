@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+header{
+    font-size: 130%;
+    background-color: cadetblue;
+    height:1000;
+
+
+}
+.ter{
+    background-color: burlywood;
+    position:relative;
+    left:0px;
+    top:34px;
+}
+p {
+    background-color: rgb(197, 157, 108);
+    width:900px;
+}
+.pic{
+    position:absolute;
+    color:red;
+}

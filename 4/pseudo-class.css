@@ -1,0 +1,18 @@
+a{
+    transition:10s;
+    color: aaaaaa;
+}
+.me:hover{
+    color:red;
+    background-color:blue;
+    text-decoration:none;
+}
+header { border: 2px solid grey; padding: 5px; }
+header:hover { background: lightyellow; border-color: blue; outline: none; }
+.q{border:1px solid grey;
+    transition:1s;
+}
+.q:hover{
+    border:1px solid rgb(218, 162, 162);
+    background-color:goldenrod;
+}

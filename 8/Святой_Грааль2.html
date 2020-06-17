@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>пример</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      header,
+      footer {
+        background-color: rgb(255, 245, 102);
+        color: rgb(255, 0, 0);
+        flex-basis: 50px;
+        padding: 20px;
+      }
+      @media screen and (max-width: 575px) {
+        #main {
+          display: block;
+        }
+      }
+      main {
+        flex: 1;
+        display: flex;
+        padding: 20px;
+      }
+      nav,
+      aside {
+        flex-basis: 20vw;
+      }
+      article {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Шапка</header>
+    <main>
+      <nav>Навигация</nav>
+      <article>Статья</article>
+      <aside>Боковая Панель</aside>
+    </main>
+    <footer>Подвал</footer>
+  </body>
+</html>

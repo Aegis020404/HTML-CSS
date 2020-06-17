@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Форма для входа</title>
+        <link rel="icon" href="../4/cat.jpg" >
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="1">
+        <style>
+            body{
+                background-color: #E8E8E7;
+            }
+            main{
+                padding:20px;
+                width:365px;
+                height:275px;
+                background-color: #F2F2F2;
+                margin:auto;
+                box-sizing: border-box;
+                box-shadow:0 0 5px grey;
+            }
+            h2{
+                text-align: center;
+                font-variant: small-caps;
+            }
+            div{    margin: 10px;
+                width:285px;
+                height:30px;}
+
+            input.type{
+                background-color: #F2F2F2;
+                width:285px;
+                height:20px;
+                border: 0.5 solid #D5D5D5;
+                box-shadow: 0 0 1px black;
+            }
+            input.a{
+                width:285px;
+                height:30px;
+                background:#B58D60;
+                border:#B58D60;
+                color:white;
+            }
+            span{
+                font-size:0.9em;
+               
+            }
+            .checks{
+                text-align: right;
+                font-style:italic;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h2>Добро пожаловать</h2>
+            <form action="">  
+            <div>    <input class="type" name="login" placeholder="Логин"></div>
+            <div>    <input class="type" name="pass"type="password" placeholder="Пароль"></div>
+            <div class="checks">    <input class="check"type="checkbox" ><span>Запомнить меня</span></div>
+            <div>    <input class="a"name="submit" value="Войти" type="submit"></div>
+            </form>
+        </main>
+    </body>
+</html>
